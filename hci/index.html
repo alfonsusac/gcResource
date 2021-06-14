@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="slidingimage.js"></script>
+</head>
+<body>
+    <header>
+        <div id="header-left">
+            <div id="logo"><a href="index.html"><img src="assets/logocolor.png" alt="DOTO2"></a></div>
+            <div class="navbar-item desktop"></div>
+            <div class="dropdown desktop">
+                <div class="navbar-item dropdown desktop">GAME&emsp;≡</div></a>
+                <div class="dropdown-content">
+                    <div class="navbar-item desktop"><a href="mechanics.html">GAME MECHANICS</a></div>
+                    <div class="navbar-item desktop"><a href="heroes.html">HEROES</a></div>
+                </div>
+            </div>
+            <div class="navbar-item desktop"><a href="merch.html">MERCH</a></div>
+        </div>
+        <div id="header-right">
+            <div class="navbar-item desktop" id="login-button">
+                <a href="login.html">REGISTER</a>
+            </div>
+        </div>
+        <div class="navbar-item dropdown" id="header-right-mobile">
+                <div class="navbar-item dropdown" id="menu-mobile">MENU&emsp;≡</div>
+                <div class="mobile-dropdown-content">
+                    <div class="navbar-item"><a href="mechanics.html">GAME MECHANICS</a></div>
+                    <div class="navbar-item"><a href="heroes.html">HEROES</a></div>
+                    <div class="navbar-item"><a href="merch.html">MERCH</a></div>
+                    <br/>
+                    <div class="navbar-item"></div>
+                    <div class="navbar-item"><a href="login.html">REGISTER</a></div>
+                </div>
+        </div>
+    </header>
+
+
+
+    <div id="headline">
+        <!-- <img id="bghead" src="assets/bghead.png" alt=""> -->
+        <div class="headline-center">
+            <div id="headline-text">
+                <h1>"A MODERN MULTIPLAYER<br> MASTERPIECE."</h1>
+            </div>
+            <div class="headline-separator"></div>
+            <div class="playnowbutton shadow button">
+                <img src="assets/steam.png" alt="">
+                <div class="buttonlabel">
+                    <div class="play-button"><b>PLAY FOR FREE</b></div>
+                    <div class="play-button-desc">DOWNLOAD ON STEAM</div>
+                </div>
+            </div>
+            <div class="center">
+                <div class="latest-news">
+                    <h5>LATEST NEWS</h5>
+                    <div id="news">
+                        <div class="news-item button">
+                            <div class="thumbimg" style="background-image: url(./assets/news/news1.png);"></div>
+                            <div class="news-text">
+                                <h6>June 3, 2021</h6>
+                                <h4>Doto Plus Update - Summer 2021</h4>
+                            </div>
+                        </div>
+                        <div class="news-item button">
+                            <div class="thumbimg" style="background-image: url(./assets/news/news2.png);"></div>
+                            <div class="news-text">
+                                <h6>June 2, 2021</h6>
+                                <h4>Biggest Troll in History of Doto</h4>
+                            </div>
+                        </div>
+                        <div class="news-item button">
+                            <div class="thumbimg" style="background-image: url(./assets/news/news3.png);"></div>
+                            <div class="news-text">
+                                <h6>June 1, 2021</h6>
+                                <h4>Rift Summoner are out now!</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gradient-separator-top"></div>
+    </div>
+
+    <div id="content-gamedesc">
+        <div class="gradient-separator-bottom"></div>
+        <div class="headline-center" id="gamedesc-content">
+            <div class="title-left textshadow">
+                <h2>JOIN THE</h2>
+                <h1>BATTLE OF THE OVERLORDS</h1>
+            </div>
+            <div class="content-left">
+                <p>Every day, millions of players worldwide enter the battle as one of over a hundred Doto Heroes in a 5v5 team clash. Doto is the deepest multi-player action RTS game ever made and there's always a new strategy or tactic to discover. It's completely free to play and always will be - start defending your ancient now.</p>
+            </div>
+        </div>
+    </div>
+    <div id="content-heroes">
+        <div id="lightbg">
+            <div class="text-center sectiontitle">
+                    <h3>CHOOSE YOUR</h3>
+                    <h1>HEROES</h1>
+            </div>
+        </div>
+
+    </div>
+    <div id="slideshow" class="whitefont">
+        <figure>
+            <div class="slide-itemwrapper">
+                <div class="slideitem" style="background-image: url(./assets/hero1.png);">
+                    <button class="btn-prev"><i class="fa fa-arrow-circle-left"></i>◀</button>
+                    <div class="slideitem-text">
+                        <div class="hero-class">FRONT LINE</div>
+                        <div class="hero-title">RUCKUS</div>
+                        <div class="hero-motto">THE WORST OF FRIENDS</div>
+                    </div>
+                    <button class="btn-next"><i class="fa fa-arrow-circle-right"></i>▶</button>
+                </div>
+            </div>
+            <div class="slide-itemwrapper">
+                <div class="slideitem" style="background-image: url(./assets/hero3.png);">
+                    <button class="btn-prev"><i class="fa fa-arrow-circle-left"></i>◀</button>
+                    <div class="slideitem-text">
+                        <div class="hero-class">SUPPORT</div>
+                        <div class="hero-title">IO</div>
+                        <div class="hero-motto">THE SHATTERED GODDESS</div>
+                    </div>
+                    <button class="btn-next"><i class="fa fa-arrow-circle-right"></i>▶</button>
+                </div>
+
+            </div>
+            <div class="slide-itemwrapper">
+                <div class="slideitem" style="background-image: url(./assets/hero2.png);">
+                    <button class="btn-prev"><i class="fa fa-arrow-circle-left"></i>◀</button>
+                    <div class="slideitem-text">
+                        <div class="hero-class">DAMAGE</div>
+                        <div class="hero-title">KINNESA</div>
+                        <div class="hero-motto">THE BOUNTY HUNTER</div>
+                    </div>
+                    <button class="btn-next"><i class="fa fa-arrow-circle-right"></i>▶</button>
+                </div>
+
+            </div>
+        </figure>
+    </div>
+    <div id="more-heroes" class="sectionfooter center">
+        <a href="heroes.html" target="_blank" rel="noopener noreferrer"><h6>MORE HEROES ></h6></a> 
+    </div>
+    <div id="content-join">
+        <div class="gradient-separator-bottom"></div>
+        <div class="headline-center">
+            <div class="title-left ">
+                <h2>JOIN THE</h2>
+                <h1>BATTLE NOW</h1>
+            </div>
+            <div class="headline-separator"></div>
+            <div class="playnowbutton shadow button">
+                <img src="assets/steam.png" alt="">
+                <div class="buttonlabel">
+                    <div class="play-button"><b>PLAY FOR FREE</b></div>
+                    <div class="play-button-desc">DOWNLOAD ON STEAM</div>
+                </div>
+            </div>
+        </div>
+        <div class="gradient-separator-top"></div>
+    </div>
+    <footer class="center">
+        <div id="footer-div">
+            <div id="logo-footer"><img src="assets/logowhite.png" alt="DOTO2"></div>
+            <div id="tor" class="small-text">™ & © 2021 Root Games, Inc.  DOTO 2 and all related logos, characters, names and<br>
+                distinctive likenesses thereof are not the exclusive property of Root Games, Inc.  All Rights Reserved.</div>
+        </div>
+    </footer>
+</body>
+</html>

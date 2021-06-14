@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="slidingimage.js"></script>
+    <script defer src="inputvalidation.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="header-left">
+            <div id="logo"><a href="index.html"><img src="assets/logocolor.png" alt="DOTO2"></a></div>
+            <div class="navbar-item desktop"></div>
+            <div class="dropdown desktop">
+                <div class="navbar-item dropdown desktop">GAME&emsp;≡</div></a>
+                <div class="dropdown-content">
+                    <div class="navbar-item desktop"><a href="mechanics.html">GAME MECHANICS</a></div>
+                    <div class="navbar-item desktop"><a href="heroes.html">HEROES</a></div>
+                </div>
+            </div>
+            <div class="navbar-item desktop"><a href="merch.html">MERCH</a></div>
+        </div>
+        <div id="header-right">
+            <div class="navbar-item desktop" id="login-button">
+                <a href="login.html">REGISTER</a>
+            </div>
+        </div>
+        <div class="navbar-item dropdown" id="header-right-mobile">
+            <div class="navbar-item dropdown" id="menu-mobile">MENU&emsp;≡</div>
+            <div class="mobile-dropdown-content">
+                <div class="navbar-item"><a href="mechanics.html">GAME MECHANICS</a></div>
+                <div class="navbar-item"><a href="heroes.html">HEROES</a></div>
+                <div class="navbar-item"><a href="merch.html">MERCH</a></div>
+                <br />
+                <div class="navbar-item"></div>
+                <div class="navbar-item"><a href="login.html">REGISTER</a></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- content starts here -->
+
+    <div class="darkpage centerpage">
+        <div class="pageheader">
+            <h1>YOUR <span class="highlight">LEGEND</span> STARTS HERE</h3>
+                <h5>FILL IN THE INFORMATION BELOW</h5>
+        </div>
+        <div class="pageform">
+            <form id="form" class="form">
+                <div class="form-control">
+                    <label for="username">Username:</label><br>
+                    <input type="text" name="username" placeholder="Username" id="username"><br>
+                    <small>Username has to only contain alphanumeric! [A-Z][a-z][0.9]</small><br>
+                </div>
+                <div class="form-control">
+                    <label for="email">E-mail:</label><br>
+                    <input type="text" name="email" placeholder="E-mail" id="email"><br>
+                    <small>Must be a valid email!</small><br>
+                </div>
+                <div class="form-control">
+                    <label for="password">Password:</label><br>
+                    <input type="password" name="password" placeholder="Password" id="password"><br>
+                    <small>Password must be between 8-16 digit!</small><br>
+                </div>
+
+                <div class="form-control">
+                    <label for="region">Region:</label><br>
+                    <input type="text" name="region" placeholder="NA/EU/SEA" id="region"><br>
+                    <small>Please enter your region!</small><br>
+                </div>
+                <div class="form-control">
+                    <label for="dob">Date of Birth:</label><br>
+                    <input type="text" name="dob" placeholder="Date of Birth" id="dob"><br>
+                    <small>Please enter a valid date of birth!</small><br>
+                </div>
+                <button>REGISTER</button>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- content ends here -->
+
+    <div id="content-join">
+        <div class="gradient-separator-bottom"></div>
+        <div class="headline-center">
+            <div class="title-left ">
+                <h2>JOIN THE</h2>
+                <h1>BATTLE NOW</h1>
+            </div>
+            <div class="headline-separator"></div>
+            <div class="playnowbutton shadow button">
+                <img src="assets/steam.png" alt="">
+                <div class="buttonlabel">
+                    <div class="play-button"><b>PLAY FOR FREE</b></div>
+                    <div class="play-button-desc">DOWNLOAD ON STEAM</div>
+                </div>
+            </div>
+        </div>
+        <div class="gradient-separator-top"></div>
+    </div>
+    <footer class="center">
+        <div id="footer-div">
+            <div id="logo-footer"><img src="assets/logowhite.png" alt="DOTO2"></div>
+            <div id="tor" class="small-text">™ & © 2021 Root Games, Inc. DOTO 2 and all related logos, characters, names
+                and<br>
+                distinctive likenesses thereof are not the exclusive property of Root Games, Inc. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
